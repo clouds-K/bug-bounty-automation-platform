@@ -1,0 +1,40 @@
+# --- Secrets and environment files (NEVER commit) ---
+.env
+.env.*
+!.env.example
+cookies*.txt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# --- Node ---
+node_modules/
+frontend/dist/
+
+# --- Runtime data, logs, local databases ---
+logs/
+*.log
+backend/instance/
+*.db
+*.sqlite3
+
+# --- Generated scan reports ---
+security_report_*.pdf
+
+# --- Large training dataset (~98 MB, exceeds GitHub's file limit) ---
+backend/app/ml_models/CVE_CWE_2025.csv
+
+# --- Duplicate model copies at the repo root ---
+/cwe_text_model.pkl
+/cwe_tfidf_vectorizer.pkl
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Leftovers ---
+frontend-old/

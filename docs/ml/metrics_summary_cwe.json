@@ -1,0 +1,281 @@
+{
+  "accuracy": 0.8830858384643245,
+  "f1_weighted": 0.8829601146546087,
+  "f1_macro": 0.85150559047003,
+  "cross_validation": {
+    "folds": 5,
+    "accuracy_mean": 0.8831641727889579,
+    "accuracy_std": 0.0016230898816699485,
+    "f1_weighted_mean": 0.8829927233783532,
+    "f1_weighted_std": 0.0016490266910233393,
+    "f1_macro_mean": 0.8524738952917386,
+    "f1_macro_std": 0.0017043092696787923,
+    "f1_weighted_per_fold": [
+      0.884179527400248,
+      0.8802925949614614,
+      0.8847593761936325,
+      0.8819322235107089,
+      0.8837998948257153
+    ]
+  },
+  "n_train": 110437,
+  "n_test": 27610,
+  "n_classes": 15,
+  "classification_report": {
+    "CWE-119": {
+      "precision": 0.8514056224899599,
+      "recall": 0.7913728743260058,
+      "f1-score": 0.820292347377472,
+      "support": 2411.0
+    },
+    "CWE-125": {
+      "precision": 0.8603151862464183,
+      "recall": 0.8850405305821666,
+      "f1-score": 0.8725027243007628,
+      "support": 1357.0
+    },
+    "CWE-20": {
+      "precision": 0.708636836628512,
+      "recall": 0.6276497695852534,
+      "f1-score": 0.6656891495601173,
+      "support": 2170.0
+    },
+    "CWE-200": {
+      "precision": 0.7873626373626373,
+      "recall": 0.8341094295692666,
+      "f1-score": 0.8100621820237422,
+      "support": 1718.0
+    },
+    "CWE-22": {
+      "precision": 0.908284023668639,
+      "recall": 0.9116555308092057,
+      "f1-score": 0.9099666543164134,
+      "support": 1347.0
+    },
+    "CWE-264": {
+      "precision": 0.6960203217612193,
+      "recall": 0.7696629213483146,
+      "f1-score": 0.7309915518008003,
+      "support": 1068.0
+    },
+    "CWE-352": {
+      "precision": 0.971868720696584,
+      "recall": 0.974479516453996,
+      "f1-score": 0.9731723675385647,
+      "support": 1489.0
+    },
+    "CWE-416": {
+      "precision": 0.9191643960036331,
+      "recall": 0.93790546802595,
+      "f1-score": 0.9284403669724771,
+      "support": 1079.0
+    },
+    "CWE-476": {
+      "precision": 0.8397435897435898,
+      "recall": 0.9046961325966851,
+      "f1-score": 0.8710106382978723,
+      "support": 724.0
+    },
+    "CWE-78": {
+      "precision": 0.7912844036697247,
+      "recall": 0.8712121212121212,
+      "f1-score": 0.8293269230769231,
+      "support": 792.0
+    },
+    "CWE-787": {
+      "precision": 0.8489326765188834,
+      "recall": 0.8461538461538461,
+      "f1-score": 0.8475409836065574,
+      "support": 1833.0
+    },
+    "CWE-79": {
+      "precision": 0.9871323529411765,
+      "recall": 0.9777310924369748,
+      "f1-score": 0.9824092316352379,
+      "support": 7140.0
+    },
+    "CWE-862": {
+      "precision": 0.8738532110091743,
+      "recall": 0.8581081081081081,
+      "f1-score": 0.865909090909091,
+      "support": 888.0
+    },
+    "CWE-89": {
+      "precision": 0.9906103286384976,
+      "recall": 0.98491921005386,
+      "f1-score": 0.9877565718401152,
+      "support": 2785.0
+    },
+    "CWE-94": {
+      "precision": 0.6392543859649122,
+      "recall": 0.7206427688504327,
+      "f1-score": 0.6775130737943056,
+      "support": 809.0
+    },
+    "accuracy": 0.8830858384643245,
+    "macro avg": {
+      "precision": 0.8449245795562376,
+      "recall": 0.8596892880074791,
+      "f1-score": 0.85150559047003,
+      "support": 27610.0
+    },
+    "weighted avg": {
+      "precision": 0.8839983781086638,
+      "recall": 0.8830858384643245,
+      "f1-score": 0.8829601146546087,
+      "support": 27610.0
+    }
+  },
+  "top_terms_per_class": {
+    "CWE-119": [
+      "overflow adobe",
+      "overflow",
+      "buffer",
+      "buffer overflows",
+      "overflow attack",
+      "corruption unspecified",
+      "03 06",
+      "leads buffer"
+    ],
+    "CWE-125": [
+      "read",
+      "read past",
+      "bounds read",
+      "bounds",
+      "buffer read",
+      "bound read",
+      "reads",
+      "read addressed"
+    ],
+    "CWE-20": [
+      "scripting xss",
+      "validation",
+      "improper input",
+      "properly validate",
+      "driver file",
+      "spoof",
+      "object attacker",
+      "input"
+    ],
+    "CWE-200": [
+      "disclosure",
+      "information",
+      "confidentiality",
+      "enumerate",
+      "leak",
+      "discover",
+      "exposure",
+      "sensitive"
+    ],
+    "CWE-22": [
+      "traversal",
+      "directory traversal",
+      "traverse",
+      "path",
+      "leads path",
+      "directory",
+      "outside",
+      "handling issue"
+    ],
+    "CWE-264": [
+      "allows remote",
+      "permissions",
+      "privileges",
+      "attackers bypass",
+      "restrict",
+      "protections",
+      "authenticated local",
+      "acl"
+    ],
+    "CWE-352": [
+      "csrf",
+      "site request",
+      "forgery",
+      "request forgery",
+      "visits",
+      "leads cross",
+      "forgery vulnerability",
+      "multiple cross"
+    ],
+    "CWE-416": [
+      "use free",
+      "uaf",
+      "free",
+      "freed",
+      "vulnerability adobe",
+      "released",
+      "execution vulnerability",
+      "use"
+    ],
+    "CWE-476": [
+      "null",
+      "dereference",
+      "dereferencing",
+      "pointer",
+      "null pointer",
+      "null check",
+      "vulnerable buffer",
+      "display driver"
+    ],
+    "CWE-78": [
+      "command injection",
+      "os command",
+      "execute",
+      "os commands",
+      "commands",
+      "sql query",
+      "unsanitized",
+      "shell"
+    ],
+    "CWE-787": [
+      "write",
+      "write past",
+      "affected stack",
+      "bounds write",
+      "player 18",
+      "writes",
+      "corruption issue",
+      "corruption"
+    ],
+    "CWE-79": [
+      "xss",
+      "site scripting",
+      "scripting",
+      "scripting attack",
+      "leads cross",
+      "scripting possible",
+      "scripting vulnerability",
+      "allows xss"
+    ],
+    "CWE-862": [
+      "missing authorization",
+      "authorization",
+      "missing",
+      "missing permission",
+      "authorization vulnerability",
+      "wordpress allows",
+      "unauthorized",
+      "access control"
+    ],
+    "CWE-89": [
+      "sql injection",
+      "sql",
+      "leads sql",
+      "injections",
+      "iot",
+      "injection",
+      "blind",
+      "multiple sql"
+    ],
+    "CWE-94": [
+      "injection",
+      "code",
+      "code injection",
+      "injected",
+      "eval",
+      "rce",
+      "vulnerable sql",
+      "generation"
+    ]
+  }
+}
