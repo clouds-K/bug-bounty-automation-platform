@@ -52,3 +52,4 @@ flake8==7.1.0
 # PRODUCTION SERVER
 # ==========================
 gunicorn==21.2.0
+# scanning, PDF reports, analytics
